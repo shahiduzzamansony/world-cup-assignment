@@ -127,6 +127,13 @@ button {
     padding-left: 20px;
 }
 
+.hidden-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
 /* footer styles */
 
 footer {
@@ -151,4 +158,40 @@ footer {
 
 hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/*---------- media queries 
+-------------------------------------*/
+
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading-img,
+    .heading-title,
+    .options,
+    .image {
+        width: 100%;
+    }
+
+    .heading-img img {
+        position: none;
+    }
+
+    .main-section {
+        flex-direction: column;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-anchors {
+        display: flex;
+        flex-direction: column;
+    }
 }
