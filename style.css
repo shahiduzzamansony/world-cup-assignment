@@ -295,9 +295,7 @@ hr {
     }
 
     .footer-anchors {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-column: auto;
+        display: flex;
     }
 
 }

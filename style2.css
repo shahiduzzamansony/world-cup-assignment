@@ -259,7 +259,7 @@ hr {
         width: auto;
         height: 450px;
         position: relative;
-        top: 300px;
+        top: 291px;
     }
 
     .main {
@@ -273,9 +273,7 @@ hr {
     }
 
     .footer-anchors {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-column: auto;
+        display: flex;
     }
 
 }
