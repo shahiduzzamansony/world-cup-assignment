@@ -45,6 +45,10 @@ body {
     padding: 5px 10px;
 }
 
+.fa-chevron-right {
+    font-size: 13px;
+}
+
 .heading-img {
     width: 50%;
 }
@@ -106,6 +110,13 @@ main {
     border-radius: 5px;
 }
 
+.blogs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+}
+
 article {
     width: 372px;
     border: 1px solid rgba(128, 128, 128, 0.264);
@@ -114,11 +125,6 @@ article {
     padding-bottom: 10px;
 }
 
-.blogs {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-}
 
 h4 {
     margin-left: 10px;
@@ -126,7 +132,7 @@ h4 {
 
 .image {
     width: 372px;
-    height: 175px;
+    height: 200px;
 }
 
 button {
@@ -174,6 +180,16 @@ footer {
 
 .footer h2 {
     font-size: 45px;
+}
+
+.social-media {
+    margin-top: 40px;
+}
+
+.social-links {
+    color: white;
+    font-size: 40px;
+    margin: 20px;
 }
 
 hr {
