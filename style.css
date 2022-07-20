@@ -217,7 +217,7 @@ hr {
     .heading-img,
     .heading-title,
     .image {
-        width: auto;
+        width: 100%;
     }
 
     .options {
