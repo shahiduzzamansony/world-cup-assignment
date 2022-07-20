@@ -46,7 +46,7 @@ body {
 .heading-title {
     color: white;
     width: 50%;
-    margin: 15px 35px;
+    margin: 25px 35px;
 }
 
 
@@ -301,9 +301,12 @@ hr {
     }
 
     .heading-img,
-    .heading-title,
-    .image {
+    .heading-title {
         width: auto;
+    }
+
+    .image {
+        width: 100%;
     }
 
     .options {
