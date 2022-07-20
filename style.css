@@ -244,6 +244,8 @@ hr {
 
     .blogs {
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-content: center;
     }
 
     .footer-anchors {
@@ -288,6 +290,8 @@ hr {
 
     .blogs {
         grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-content: center;
     }
 
     .footer-anchors {
