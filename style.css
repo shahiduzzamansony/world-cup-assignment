@@ -316,6 +316,11 @@ hr {
         width: auto;
     }
 
+    .site-link {
+        border: 1px solid rgba(128, 128, 128, 0.33);
+        border-radius: 8px;
+    }
+
     .heading-img img {
         width: auto;
         height: 450px;
