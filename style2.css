@@ -223,7 +223,10 @@ hr {
         width: auto;
     }
 
-    .heading-img,
+    .heading-img {
+        width: auto;
+    }
+
     .heading-title,
     .image {
         width: auto;
