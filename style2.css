@@ -285,8 +285,12 @@ hr {
         width: auto;
     }
 
+    .option {
+        padding: 0 20px 40px 10px;
+    }
+
     .site-link {
-        border: 1px solid rgba(128, 128, 128, 0.33);
+        border: 0.5px solid rgba(128, 128, 128, 0.33);
         border-radius: 8px;
     }
 
