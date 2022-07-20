@@ -248,6 +248,10 @@ hr {
         align-content: center;
     }
 
+    .footer {
+        width: 100%;
+    }
+
     .footer-anchors {
         display: flex;
         flex-direction: column;
